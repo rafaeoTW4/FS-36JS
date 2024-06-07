@@ -28,3 +28,16 @@ function media() {
 }
 
 media();
+
+
+function soma(n1, n2) {
+    return n1+n2;
+}
+
+function media2numeros(n1, n2){
+    let resultado = soma (n1, n2) /2;
+    return resultado;
+}
+
+console.log(media2numeros(214965, 879521));
+
